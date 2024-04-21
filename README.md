@@ -1,2 +1,2 @@
-## 3rd Coding Club Session
+## 5th Coding Club Session
 This is basically the complete file we will be covering in class, unfortunately this class I won't be assigning an exercise as we are now meant to start with projects. I'd advice to look at this and borrow code if required. 

@@ -38,3 +38,10 @@ with open(f"{filename}.csv", 'a+') as file:
     csvwriter = csv.writer(file)
     csvwriter.writerow(fields)
     csvwriter.writerows(hitList)
+    file.close()
+
+with open(f"{filename}.csv", 'r') as file:
+    csvreader = csv.DictReader(file)
+    for row in csvreader:
+        print(row)
+    file.close()
